@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  become: yes
+  tasks :
+    - name: Echoing Hello
+      shell: Echo "Hello"
